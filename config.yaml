@@ -1,0 +1,25 @@
+# PDF Translation Tool Configuration
+
+# Translation settings
+translation:
+  model_name: "Helsinki-NLP/opus-mt-tc-big-en-tr"
+  initial_batch_size: 4
+
+# Paths and folders
+paths:
+  # Font for the translated text. Can be an absolute path or relative to the project root.
+  font_path: "src/pdf_translator/fonts/alegreya-sans-sc/AlegreyaSansSC-Regular.ttf"
+  # Folder with the original PDFs
+  input_folder: "samples/pdfs_original"
+  # Folder for the translated PDFs
+  output_folder: "samples/pdfs_translated"
+  # Log file for the translation process
+  log_file: "translation_log.txt"
+  # File with excerpts for sample generation
+  excerpts_file: "src/pdf_translator/data/excerpts.txt"
+
+# Sample generation settings
+sample_generator:
+  num_pdfs: 5
+  num_pages: 5
+  excerpts_per_page: 10
