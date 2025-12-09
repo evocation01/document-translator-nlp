@@ -1,6 +1,6 @@
 # PDF Translation Tool
 
-![PDF Translation Tool Banner](https://example.com/banner.png) <!-- Replace with a real banner image if you have one -->
+![PDF Translation Tool Banner](public/pdf-translation-tool.jpg)
 
 ## Overview
 
